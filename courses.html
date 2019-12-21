@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Final checkpoint</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="essaie2/essaie2.css">
+
+</head>
+
+<body>
+    <div class="container-text">
+        <div class="text">
+            <ul class="li-container">
+                <li><a href="essaie1.html">HOME</a></li>
+                <li><a href="courses.html">COURSES</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+     <div >
+      <h1>COURSES</h1>
+     </div>
+       <div class="image-container">
+            <p><a href="#ex1" rel="modal:open"><img class="image" src="ima.png" alt="#"></a></p>
+            <p><a href="#ex1" rel="modal:open"><img class="image" src="ima2.png" alt="#"></a></p>
+            <p><a href="#ex1" rel="modal:open"><img class="image" src="ima3.png" alt="#"></a></p>
+            <p><a href="#ex1" rel="modal:open"><img class="image" src="ima4.png" alt="#"></a></p>
+            <p><a href="#ex1" rel="modal:open"><img class="image" src="ima5.png" alt="#"></a></p>
+            <p><a href="#ex1" rel="modal:open"><img class="image" src="ima6.png" alt="#"></a></p>
+            <p><a href="#ex1" rel="modal:open"><img class="image" src="ima7.png" alt="#"></a></p>
+            <p><a href="#ex1" rel="modal:open"><img class="image" src="ima8.png" alt="#"></a></p>
+            <p><a href="#ex1" rel="modal:open"><img class="image" src="ima9.png" alt="#"></a></p>
+
+
+       </div>
+       
+       
+       
+       
+        <div class="centercourses">
+            
+            <h2 id="titrepa2">Feedback</h2>
+            <!-- <form> -->
+            <button onclick="changeBold()">B</button>
+            <button onclick="changeItalic()">I</button>
+            <button onclick="changeunderline()">Underline</button>
+            <select onchange="changesize(this)">
+                <option value="20px">20px</option>
+                <option value="30px">30px</option>
+                <option value="40px">40px</option>
+            </select>
+            <select onchange="changefont(this)">
+                <option value="arial">Arial</option>
+                <option value="cabri">cabri</option>
+
+            </select>
+            <br>
+            <textarea id="message" cols="30" rows="10"></textarea>
+
+            <!-- </form> -->
+        </div>
+    </div>
+    <div id="ex1" class="modal">
+            <p>This is GoMyCode Track.
+               Each track has its own goal.
+               By adopting this track, you chose your own goal.</p>
+            <a href="#" rel="modal:close">Close</a>
+    </div>
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+<script src="js/main3.js"></script>
+
+</html>
